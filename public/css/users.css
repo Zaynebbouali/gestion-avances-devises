@@ -1,0 +1,95 @@
+body{
+
+    margin:40px;
+
+    font-family:Arial;
+
+    background:#f4f4f4;
+
+}
+
+h2{
+
+    text-align:center;
+
+    color:#2c3e50;
+
+}
+
+.success{
+
+    color:green;
+
+    font-weight:bold;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+}
+
+th{
+
+    background:#2c3e50;
+
+    color:white;
+
+    padding:12px;
+
+}
+
+td{
+
+    border:1px solid #ddd;
+
+    padding:12px;
+
+    text-align:center;
+
+}
+
+.btn{
+
+    padding:8px 15px;
+
+    border:none;
+
+    border-radius:5px;
+
+    color:white;
+
+    cursor:pointer;
+
+    text-decoration:none;
+
+}
+
+.add{
+
+    background:green;
+
+}
+
+.edit{
+
+    background:orange;
+
+}
+
+.delete{
+
+    background:red;
+
+}
+
+.inline{
+
+    display:inline;
+
+}
