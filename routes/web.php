@@ -16,6 +16,7 @@ use App\Http\Controllers\DcspController;
 use App\Http\Controllers\ImportDcspController;
 use App\Http\Controllers\AdminDcspController;
 use App\Http\Controllers\BonPaiementController;
+use App\Http\Controllers\ChatbotController;
 
 Route::get('/', function () {
     return view('accueil');
@@ -95,3 +96,6 @@ Route::get('/bon-paiements/{id}', [BonPaiementController::class, 'show'])->name(
 Route::get('/bon/{id}/fichier-bancaire',
     [BonPaiementController::class,'genererFichier'])
     ->name('bon.fichier');
+
+
+Route::post('/chatbot', [ChatbotController::class, 'ask'])->name('chatbot.ask');

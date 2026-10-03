@@ -28,7 +28,7 @@
         <a href="{{route('admin.dcsp')}}">
             Fichiers DCSP
         </a>
-        
+    
         <a href="{{ route('bon.index') }}">
             Bons de paiement
         </a>
